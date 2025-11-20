@@ -1,10 +1,10 @@
-1. TEXT2POTAI – AI Recipe Generator & Meal Assistant
+**1. TEXT2POTAI – AI Recipe Generator & Meal Assistant**
 
-TEXT2POTAI is an AI-powered recipe recommender that transforms any food description or ingredient list into a complete recipe using OpenAI. Users receive 3 free recipe generations, and can upgrade to Pro using IntaSend Payments for unlimited access.
+TEXT2POTAI is an AI-powered recipe recommender that transforms any food description or ingredient list into a complete recipe using OpenAI. Users receive **3 free recipe generations**, and can **upgrade to Pro** using IntaSend Payments for unlimited access.
 
 This project is built for real-world scalability using Supabase, Vercel, OpenAI, and IntaSend.
 
-2. Tech Stack
+**2. Tech Stack**
 2.1 Frontend
 
 HTML
@@ -37,7 +37,7 @@ Vercel (Frontend)
 
 Supabase (Backend)
 
-3. Live Deployment
+**3. Live Deployment**
 Component	URL
 Frontend (Vercel)	https://text-2-potai-project.vercel.app/
 
@@ -66,8 +66,8 @@ After payment:
 
 IntaSend → payment-callback → Supabase updates user as PRO
 
-5. Supabase Edge Functions
-5.1 get-recipes
+**5. Supabase Edge Functions**
+**5.1 get-recipes**
 
 Purpose:
 Generate recipes using OpenAI.
@@ -84,7 +84,7 @@ Logs usage
 
 Enforces free-tier limit (3 free recipes)
 
-5.2 create-checkout
+**5.2 create-checkout**
 
 Purpose:
 Generate an IntaSend checkout link for Pro upgrade.
@@ -97,7 +97,7 @@ Sends user a checkout URL
 
 Includes metadata (e.g., user_id) for callback use
 
-5.3 payment-callback
+**5.3 payment-callback**
 
 Purpose:
 Automatically upgrade user after successful payment.
@@ -118,7 +118,7 @@ Enables unlimited recipe generation
 
 This ensures secure, automated user upgrades.
 
-6. Database Security (RLS Policies)
+**6. Database Security (RLS Policies)**
 
 Supabase Row Level Security ensures users can only access their own data.
 
@@ -143,13 +143,13 @@ Users can only manage their own favorites.
 6.3 users Table
 
 RLS policy:
-
+```
 auth.uid() = id
-
+```
 
 Protects personal user data and payment status.
 
-7. System Architecture
+**7. System Architecture**
 ```
 flowchart TD
     U[👤 User] --> F[🌐 Vercel Frontend]
@@ -169,8 +169,9 @@ flowchart TD
     U -->|3 Free Recipes| F
     U -->|Upgrade to PRO| PAY
 ```
-9. Project Structure
+**9. Project Structure**
 ```
+TEXT2POTAI
 ├── index.html                     
 ├── style.css                      
 ├── app.js                         
@@ -211,7 +212,7 @@ Weekly meal planner
 
 Enhanced UI/UX
 
-10. Developer
+**10. Developer**
 
 Kipkoech Laban
 Creator of TEXT2POTAI – building the future of AI-powered cooking.
