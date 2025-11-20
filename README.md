@@ -218,6 +218,7 @@ Enhanced UI/UX
 **10. Developer**
 
 Kipkoech Laban
+
 Creator of TEXT2POTAI – building the future of AI-powered cooking.
 
 
