@@ -133,8 +133,9 @@ Supports browsing and AI-generated recipes
 6.2 favorites Table
 
 RLS policy:
-
+```
 auth.uid() = user_id
+```
 
 
 Users can only manage their own favorites.
@@ -149,6 +150,7 @@ auth.uid() = id
 Protects personal user data and payment status.
 
 7. System Architecture
+```
 flowchart TD
     U[👤 User] --> F[🌐 Vercel Frontend]
 
@@ -166,8 +168,9 @@ flowchart TD
 
     U -->|3 Free Recipes| F
     U -->|Upgrade to PRO| PAY
-
-8. Project Structure
+```
+9. Project Structure
+```
 ├── index.html                     
 ├── style.css                      
 ├── app.js                         
@@ -182,8 +185,8 @@ flowchart TD
 │           └── index.ts          
 │
 └── README.md
-
-9. Features
+```
+11. Features
 9.1 Completed
 
 AI-powered recipe generator
@@ -213,8 +216,4 @@ Enhanced UI/UX
 Kipkoech Laban
 Creator of TEXT2POTAI – building the future of AI-powered cooking.
 
-If you'd like, I can also:
-🔥 Add GitHub badges
-📦 Create a ZIP of your entire project
-🎨 Add a banner image for your README
-🚀 Improve UI design
+
