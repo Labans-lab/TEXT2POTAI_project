@@ -25,7 +25,7 @@ On exceeding the limit, user is prompted with an upgrade modal
 The create-checkout Edge Function generates an IntaSend payment link
 Users are redirected to the IntaSend checkout page
 🚀 Live Deployment
-Netlify Deployment: https://savorai.netlify.app
+Vercel Deployment: https://text-2-potai-project.vercel.app/
 Backend: Hosted on Supabase (database + edge functions)
 🏗️ System Architecture
 flowchart TD
