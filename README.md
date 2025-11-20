@@ -7,8 +7,6 @@ TEXT2POTAI is an AI-powered recipe recommender that generates customized recipes
 **🚀 Tech Stack**
 Frontend
 
-HTML
-
-CSS
-
-JavaScript
+1.HTML
+2.CSS
+3.JavaScript
