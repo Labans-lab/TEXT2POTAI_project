@@ -190,6 +190,7 @@ TEXT2POTAI
 └── README.md
 ```
 11. Features
+    
 9.1 Completed
 
 AI-powered recipe generator
