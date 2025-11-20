@@ -1,0 +1,42 @@
+.env
+.env.*
+!*.example
+node_modules/
+dist/
+# ----- NODE -----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ----- BUILD OUTPUT -----
+dist/
+build/
+.out/
+.vercel/
+
+# ----- SUPABASE -----
+supabase/.branches
+supabase/.temp
+supabase/.config
+supabase/functions/*/dist
+supabase/migrations/.temp
+
+# ----- VSCODE / EDITORS -----
+.vscode/
+.vs/
+.idea/
+
+# ----- SYSTEM FILES -----
+.DS_Store
+Thumbs.db
+
+# ----- LOGS -----
+logs/
+*.log
+*.log.*
+
+# ----- FRONTEND -----
+.cache/
+public/build/
