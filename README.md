@@ -5,6 +5,7 @@ TEXT2POTAI is an AI-powered recipe recommender that transforms any food descript
 This project is built for real-world scalability using Supabase, Vercel, OpenAI, and IntaSend.
 
 **2. Tech Stack**
+
 2.1 Frontend
 
 HTML
@@ -38,6 +39,7 @@ Vercel (Frontend)
 Supabase (Backend)
 
 **3. Live Deployment**
+
 Component	URL
 Frontend (Vercel)	https://text-2-potai-project.vercel.app/
 
